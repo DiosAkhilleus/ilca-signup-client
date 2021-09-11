@@ -1,0 +1,3 @@
+[submodule "slotpicker"]
+	path = slotpicker
+	url = git@github.com:DiosAkhilleus/slotpicker.git
