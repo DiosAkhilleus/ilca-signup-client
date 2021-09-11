@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ilca-signup/static/css/main.5146eb95.chunk.css",
+    "main.js": "/ilca-signup/static/js/main.0c04d23d.chunk.js",
+    "main.js.map": "/ilca-signup/static/js/main.0c04d23d.chunk.js.map",
+    "runtime-main.js": "/ilca-signup/static/js/runtime-main.61ac15cc.js",
+    "runtime-main.js.map": "/ilca-signup/static/js/runtime-main.61ac15cc.js.map",
+    "static/css/2.b668e52d.chunk.css": "/ilca-signup/static/css/2.b668e52d.chunk.css",
+    "static/js/2.3bf33131.chunk.js": "/ilca-signup/static/js/2.3bf33131.chunk.js",
+    "static/js/2.3bf33131.chunk.js.map": "/ilca-signup/static/js/2.3bf33131.chunk.js.map",
+    "index.html": "/ilca-signup/index.html",
+    "static/css/2.b668e52d.chunk.css.map": "/ilca-signup/static/css/2.b668e52d.chunk.css.map",
+    "static/css/main.5146eb95.chunk.css.map": "/ilca-signup/static/css/main.5146eb95.chunk.css.map",
+    "static/js/2.3bf33131.chunk.js.LICENSE.txt": "/ilca-signup/static/js/2.3bf33131.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61ac15cc.js",
+    "static/css/2.b668e52d.chunk.css",
+    "static/js/2.3bf33131.chunk.js",
+    "static/css/main.5146eb95.chunk.css",
+    "static/js/main.0c04d23d.chunk.js"
+  ]
+}
