@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ilca-signup/static/css/main.5146eb95.chunk.css",
-    "main.js": "/ilca-signup/static/js/main.0c04d23d.chunk.js",
-    "main.js.map": "/ilca-signup/static/js/main.0c04d23d.chunk.js.map",
+    "main.js": "/ilca-signup/static/js/main.8960f28e.chunk.js",
+    "main.js.map": "/ilca-signup/static/js/main.8960f28e.chunk.js.map",
     "runtime-main.js": "/ilca-signup/static/js/runtime-main.61ac15cc.js",
     "runtime-main.js.map": "/ilca-signup/static/js/runtime-main.61ac15cc.js.map",
     "static/css/2.b668e52d.chunk.css": "/ilca-signup/static/css/2.b668e52d.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.b668e52d.chunk.css",
     "static/js/2.3bf33131.chunk.js",
     "static/css/main.5146eb95.chunk.css",
-    "static/js/main.0c04d23d.chunk.js"
+    "static/js/main.8960f28e.chunk.js"
   ]
 }
