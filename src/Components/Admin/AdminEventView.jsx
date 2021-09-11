@@ -210,7 +210,7 @@ const ViewEvent = () => {
   };
 
   const redirToAdmin = () => {
-    window.location.href = '/ilca-signup-client';
+    window.location.href = '/';
   };
 
   const handleDateChange = (date) => {
@@ -275,12 +275,12 @@ const ViewEvent = () => {
                 marginTop: 20,
                 marginBottom: 30,
               }}
-              to="/ilca-signup-client"
+              to="/"
             >
               Back to Admin
             </Link>
             <Link
-              to={`/ilca-signup-client/signup/${currentSignup.uuid}`}
+              to={`/signup/${currentSignup.uuid}`}
               style={{ marginBottom: 20 }}
             >
               Link To Sailor Signup

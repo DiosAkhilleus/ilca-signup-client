@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Admin from './Components/Admin/Admin.jsx';
 import NotFound from './Components/NotFound.jsx';
 import TimeslotPost from './Components/Admin/TimeslotPost.jsx';
@@ -9,17 +9,15 @@ import SailorEventView from './Components/Timeslot/SailorEventView';
 function App() {
 
   return (
-
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Switch>
-        <Route exact path='/ilca-signup-client' component={Admin} />
-        <Route exact path='/ilca-signup-client/admin/create' component={TimeslotPost} />
-        <Route path='/ilca-signup-client/signup/:id' children={<SailorEventView />}/>
-        <Route path='/ilca-signup-client/admin/event/:ilcaNum' children={<AdminEventView />}/>
+        <Route exact path='/' component={Admin} />
+        <Route exact path='/admin/create' component={TimeslotPost} />
+        <Route exact path='/signup/:id' children={<SailorEventView />}/>
+        <Route exact path='/admin/event/:ilcaNum' children={<AdminEventView />}/>
         <Route path='/' component={NotFound}/>
       </Switch>
-    </HashRouter>
-   
+    </BrowserRouter>
   );
 }
 
