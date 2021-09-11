@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Admin from './Components/Admin/Admin.jsx';
 import NotFound from './Components/NotFound.jsx';
 import TimeslotPost from './Components/Admin/TimeslotPost.jsx';
@@ -10,7 +10,7 @@ function App() {
 
   return (
 
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path='/ilca-signup-client' component={Admin} />
         <Route exact path='/ilca-signup-client/admin/create' component={TimeslotPost} />
@@ -18,7 +18,7 @@ function App() {
         <Route path='/ilca-signup-client/admin/event/:ilcaNum' children={<AdminEventView />}/>
         <Route path='/' component={NotFound}/>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
    
   );
 }
